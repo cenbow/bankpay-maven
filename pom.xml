@@ -16,7 +16,6 @@
 	</properties>
 	<modules>
 		<module>bankpay-commons</module>
-		<module>bankpay-data</module>
 		<module>bankpay-client</module>
 		<module>bankpay-biz</module>
 		<module>bankpay-plugins</module>
