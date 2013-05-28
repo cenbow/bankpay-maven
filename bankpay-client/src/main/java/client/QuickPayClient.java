@@ -1,10 +1,10 @@
 package client;
 
-import client.request.dto.QuickPayRequestData;
-
 import common.logger.PluginLogger;
-import common.plugins.facade.QuickPayFacade;
-import dao.dto.ResultData;
+
+import data.dto.QuickPayRequestData;
+import data.dto.ResultData;
+import facade.QuickPayFacade;
 
 public class QuickPayClient {
 

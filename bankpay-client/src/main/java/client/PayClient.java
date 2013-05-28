@@ -1,10 +1,10 @@
 package client;
 
 import common.logger.PluginLogger;
-import common.plugins.dto.RequestData;
-import common.plugins.dto.ResultData;
-import common.plugins.facade.PayFacade;
 
+import data.dto.RequestData;
+import data.dto.ResultData;
+import facade.PayFacade;
 
 public class PayClient {
 

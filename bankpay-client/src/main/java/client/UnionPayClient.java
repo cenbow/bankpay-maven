@@ -1,10 +1,10 @@
 package client;
 
-import client.request.dto.UnionPayRequestData;
-
 import common.logger.PluginLogger;
-import common.plugins.facade.UnionPayFacade;
-import dao.dto.ResultData;
+
+import data.dto.ResultData;
+import data.dto.UnionPayRequestData;
+import facade.UnionPayFacade;
 
 public class UnionPayClient {
 
