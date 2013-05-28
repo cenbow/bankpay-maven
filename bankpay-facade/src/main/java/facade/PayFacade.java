@@ -1,11 +1,12 @@
 package facade;
 
+import plugins.CommonPlugin;
+
 import common.logger.PluginLogger;
-import common.plugins.CommonPlugin;
-import common.plugins.dto.RequestData;
-import common.plugins.dto.ResultData;
 import common.plugins.factory.PluginFactory;
 
+import data.dto.RequestData;
+import data.dto.ResultData;
 
 public class PayFacade {
 

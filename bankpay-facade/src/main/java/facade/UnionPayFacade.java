@@ -1,10 +1,12 @@
 package facade;
 
+import plugins.unionpay.UnionPayPlugin;
+
 import common.logger.PluginLogger;
-import common.plugins.UnionPayPlugin;
-import common.plugins.dto.UnionPayRequestData;
 import common.plugins.factory.PluginFactory;
-import dao.dto.ResultData;
+
+import data.dto.ResultData;
+import data.dto.UnionPayRequestData;
 
 public class UnionPayFacade {
 
