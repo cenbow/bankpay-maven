@@ -1,10 +1,10 @@
 package plugins.quickpay.impl;
 
-import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
-import java.util.HashMap;
 import java.util.Map;
 
+import plugins.AbstractPlugin;
+import plugins.quickpay.QuickPayPlugin;
 import plugins.quickpay.dto.JSCCBQuickReqBody;
 import plugins.quickpay.dto.JSCCBQuickReqHead;
 import plugins.quickpay.dto.JSCCBQuickResHead;
@@ -16,16 +16,14 @@ import com.thoughtworks.xstream.io.xml.XppDriver;
 import common.constants.CommonConstants;
 import common.exception.PluginException;
 import common.logger.PluginLogger;
-import common.plugins.AbstractPlugin;
-import common.plugins.QuickPayPlugin;
-import common.plugins.dto.QuickPayRequestData;
 import common.plugins.keys.EnumKeys;
-import common.utils.ConfirmLongUtil;
 import common.utils.EncryptionDecryptionUtil;
 import common.utils.Enum2StringUtils;
 import common.utils.SocketConnectionUtil;
 import common.utils.TimestampUtil;
 import common.utils.XmlConvertUtil;
+
+import data.dto.QuickPayRequestData;
 
 public class JSCCBQuickPayPlugin extends AbstractPlugin implements QuickPayPlugin {
 

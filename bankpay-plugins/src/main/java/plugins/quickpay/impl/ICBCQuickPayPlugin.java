@@ -1,10 +1,12 @@
 package plugins.quickpay.impl;
 
+import plugins.AbstractPlugin;
+import plugins.quickpay.QuickPayPlugin;
+
 import common.exception.PluginException;
 import common.logger.PluginLogger;
-import common.plugins.AbstractPlugin;
-import common.plugins.QuickPayPlugin;
-import common.plugins.dto.QuickPayRequestData;
+
+import data.dto.QuickPayRequestData;
 
 public class ICBCQuickPayPlugin extends AbstractPlugin implements QuickPayPlugin {
 

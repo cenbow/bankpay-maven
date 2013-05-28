@@ -1,10 +1,12 @@
 package plugins.unionpay.impl;
 
+import plugins.AbstractPlugin;
+import plugins.unionpay.UnionPayPlugin;
+
 import common.exception.PluginException;
 import common.logger.PluginLogger;
-import common.plugins.AbstractPlugin;
-import common.plugins.UnionPayPlugin;
-import common.plugins.dto.UnionPayRequestData;
+
+import data.dto.UnionPayRequestData;
 
 public class ICBCUnionPayPlugin extends AbstractPlugin implements UnionPayPlugin {
 
